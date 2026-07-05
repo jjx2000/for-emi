@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>For Emi Whimmy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #4c1d35;
+        --soft-ink: #7f3c61;
+        --paper: #fff7fb;
+        --rose: #f6bfd5;
+        --rose-deep: #c24d82;
+        --cream: #fff0f6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 32px 18px;
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          linear-gradient(rgba(255, 247, 251, 0.76), rgba(255, 240, 246, 0.9)),
+          url("https://images.pond5.com/heart-shapes-light-pink-background-footage-085281327_prevstill.jpeg")
+            center / cover fixed,
+          var(--rose);
+      }
+
+      main {
+        width: min(760px, 100%);
+        padding: clamp(28px, 6vw, 64px);
+        border: 1px solid rgba(194, 77, 130, 0.28);
+        border-radius: 8px;
+        background: rgba(255, 247, 251, 0.9);
+        box-shadow: 0 28px 80px rgba(127, 60, 97, 0.22);
+      }
+
+      h1 {
+        margin: 0 0 24px;
+        color: var(--rose-deep);
+        font-size: clamp(2rem, 6vw, 4.75rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+        text-wrap: balance;
+      }
+
+      p {
+        margin: 0 0 16px;
+        color: var(--soft-ink);
+        font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+        font-style: italic;
+        line-height: 1.65;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 18px;
+        padding: 12px 18px;
+        border: 1px solid var(--rose-deep);
+        border-radius: 999px;
+        color: var(--paper);
+        background: var(--rose-deep);
+        font-size: 1rem;
+        text-decoration: none;
+        transition: transform 180ms ease, box-shadow 180ms ease;
+      }
+
+      a:hover,
+      a:focus-visible {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 28px rgba(194, 77, 130, 0.24);
+      }
+
+      a:focus-visible {
+        outline: 3px solid rgba(194, 77, 130, 0.28);
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>I'm not cheating on you, my beloved Emi Whimmy</h1>
+      <p>I love you. Please stop saying I'm a cheater. I'm not. I love you a lot.</p>
+      <p>I'm sorry I can't spoil you whenever you demand it. I'm trying my best.</p>
+      <p>If I had money, you would not have to worry about anything, my love.</p>
+      <p>I made this site to prove a point: I'm not a cheater, and you're the only girl worth my time.</p>
+      <a href="https://youtu.be/_HZM0QiuUS8">For you, Emi Whimmy</a>
+    </main>
+  </body>
+</html>
